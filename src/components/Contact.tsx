@@ -117,7 +117,7 @@ export default function ContactSection() {
                 variant="outline"
                 className="w-full sm:w-auto border-violet-700/50 bg-slate-800/50 hover:bg-violet-900/30 hover:border-violet-600/50 text-slate-300 hover:text-violet-300 px-8 py-6 rounded-full transition-all duration-300"
               >
-                <a href="/resume-shashank-patgaonkar.pdf" download>
+                <a href="/Shashank-Patgaonkar.pdf" download>
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </a>
