@@ -50,7 +50,7 @@ export default function Hero() {
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 mt-30 tracking-tight">
             <span className="bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-              Shashank
+              Shashank's
             </span>
             <br />
             <span className="bg-gradient-to-r from-cyan-400 via-cyan-300 to-violet-400 bg-clip-text text-transparent">
