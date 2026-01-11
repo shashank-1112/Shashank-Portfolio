@@ -14,8 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Portfolio",
-  description: "UI/UX Designer • AI Product Builder",
+  title: "Shashank",
 };
 
 export const viewport = {
