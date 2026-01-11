@@ -1,13 +1,21 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, MapPin, Phone, ChevronDown, Download } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import { motion } from "framer-motion";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  ChevronDown,
+  Download,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Hero() {
-  const scrollToSection = (id:any) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToSection = (id: any) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -15,7 +23,10 @@ export default function Hero() {
       {/* Animated background gradient */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent rounded-full blur-3xl animate-pulse" />
-        <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-violet-500/20 via-transparent to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+        <div
+          className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-violet-500/20 via-transparent to-transparent rounded-full blur-3xl animate-pulse"
+          style={{ animationDelay: "1s" }}
+        />
       </div>
 
       {/* Grid pattern overlay */}
@@ -62,7 +73,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
             className="flex flex-wrap justify-center gap-3 mb-10"
           >
-            {['GenAI', 'Full-Stack', 'LangChain', 'Flutter'].map((tag, i) => (
+            {["GenAI", "Full-Stack", "LangChain", "Flutter"].map((tag, i) => (
               <span
                 key={tag}
                 className="px-4 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-slate-800 to-slate-800/50 border border-slate-700/50 text-cyan-300"
@@ -94,7 +105,7 @@ export default function Hero() {
             className="flex flex-wrap justify-center gap-4"
           >
             <Button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection("contact")}
               className="magic-cursor-hover bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-slate-950 font-semibold px-8 py-6 rounded-full shadow-lg shadow-cyan-500/25 transition-all duration-300 hover:shadow-cyan-500/40 hover:scale-105"
             >
               <Mail className="w-4 h-4 mr-2" />
@@ -102,7 +113,7 @@ export default function Hero() {
             </Button>
             <Button
               variant="outline"
-              onClick={() => scrollToSection('projects')}
+              onClick={() => scrollToSection("projects")}
               className="magic-cursor-hover border-slate-700 bg-slate-900/50 hover:bg-slate-800 hover:text-grey-600 text-slate-300 px-8 py-6 rounded-full transition-all duration-300 hover:scale-105"
             >
               View Projects
@@ -112,7 +123,11 @@ export default function Hero() {
               asChild
               className="magic-cursor-hover border-violet-700/50 bg-slate-900/50 hover:bg-violet-900/30 hover:border-violet-600/50 text-slate-300 hover:text-violet-300 px-8 py-6 rounded-full transition-all duration-300 hover:scale-105"
             >
-              <a href="/Shashank-Patgaonkar.pdf" download>
+              <a
+                href="/Shashank-Patgaonkar.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Download className="w-4 h-4 mr-2" />
                 Download Resume
               </a>
@@ -162,7 +177,7 @@ export default function Hero() {
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
           className="cursor-pointer"
-          onClick={() => scrollToSection('about')}
+          onClick={() => scrollToSection("about")}
         >
           <ChevronDown className="w-6 h-6 text-slate-600" />
         </motion.div>

@@ -1,29 +1,37 @@
 "use client";
 
-
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Linkedin, Github, Send, Download, FileText } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import { motion } from "framer-motion";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  Github,
+  Send,
+  Download,
+  FileText,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function ContactSection() {
   const contactInfo = [
     {
       icon: Mail,
-      label: 'Email',
-      value: 'shashankpatgaonkar200011@gmail.com',
-      href: 'mailto:shashankpatgaonkar200011@gmail.com',
+      label: "Email",
+      value: "shashankpatgaonkar200011@gmail.com",
+      href: "mailto:shashankpatgaonkar200011@gmail.com",
     },
     {
       icon: Phone,
-      label: 'Phone',
-      value: '+91 91465 67388',
-      href: 'tel:+919146567388',
+      label: "Phone",
+      value: "+91 91465 67388",
+      href: "tel:+919146567388",
     },
     {
       icon: MapPin,
-      label: 'Location',
-      value: 'Mumbai, India',
+      label: "Location",
+      value: "Mumbai, India",
       href: null,
     },
   ];
@@ -31,15 +39,15 @@ export default function ContactSection() {
   const socialLinks = [
     {
       icon: Linkedin,
-      label: 'LinkedIn',
-      href: 'https://linkedin.com/in/shashank-patgaonkar',
-      color: 'hover:text-blue-400 hover:border-blue-400/50',
+      label: "LinkedIn",
+      href: "https://linkedin.com/in/shashank-patgaonkar",
+      color: "hover:text-blue-400 hover:border-blue-400/50",
     },
     {
       icon: Github,
-      label: 'GitHub',
-      href: 'https://github.com/shashankpatgaonkar',
-      color: 'hover:text-slate-300 hover:border-slate-500/50',
+      label: "GitHub",
+      href: "https://github.com/shashankpatgaonkar",
+      color: "hover:text-slate-300 hover:border-slate-500/50",
     },
   ];
 
@@ -56,12 +64,15 @@ export default function ContactSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-cyan-400 text-sm font-medium tracking-widest uppercase">Contact</span>
+          <span className="text-cyan-400 text-sm font-medium tracking-widest uppercase">
+            Contact
+          </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mt-3 mb-4">
             Let's Work Together
           </h2>
           <p className="text-slate-400 max-w-lg mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            I'm always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision.
           </p>
         </motion.div>
 
@@ -111,19 +122,23 @@ export default function ContactSection() {
                   Send an Email
                 </a>
               </Button>
-              
+
               <Button
                 asChild
                 variant="outline"
                 className="w-full sm:w-auto border-violet-700/50 bg-slate-800/50 hover:bg-violet-900/30 hover:border-violet-600/50 text-slate-300 hover:text-violet-300 px-8 py-6 rounded-full transition-all duration-300"
               >
-                <a href="/Shashank-Patgaonkar.pdf" download>
+                <a
+                  href="/Shashank-Patgaonkar.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </a>
               </Button>
             </div>
-            
+
             <div className="flex items-center gap-3 mt-2">
               {socialLinks.map((link) => (
                 <a
