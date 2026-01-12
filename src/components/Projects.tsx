@@ -19,7 +19,7 @@ export default function Projects() {
       stats: ['150+ Companies', '20+ Salespersons'],
     },
     {
-      title: 'RevenuAI – Nexcels',
+      title: 'RevenuAI – Nexsales',
       type: 'AI Platform',
       icon: Bot,
       description: 'Developed a company-based AI chatbot capable of understanding and analyzing unstructured documents and files. Analysis is done over 200+ files at a time with semantic search system. Generated predictive insights by analyzing customer and sales data.',

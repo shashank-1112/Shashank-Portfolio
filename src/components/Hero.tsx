@@ -141,7 +141,7 @@ export default function Hero() {
             className="flex justify-center gap-6 mt-12"
           >
             <a
-              href="https://linkedin.com/in/shashank-patgaonkar"
+              href="https://www.linkedin.com/in/shashank-patgaonkar-a83529213/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-slate-800/50 border border-slate-700/50 text-slate-400 hover:text-cyan-400 hover:border-cyan-400/50 transition-all duration-300 hover:scale-110"

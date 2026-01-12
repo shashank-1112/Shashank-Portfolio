@@ -40,13 +40,13 @@ export default function ContactSection() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/shashank-patgaonkar",
+      href: "https://www.linkedin.com/in/shashank-patgaonkar-a83529213/",
       color: "hover:text-blue-400 hover:border-blue-400/50",
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/shashankpatgaonkar",
+      href: "https://github.com/shashank-1112",
       color: "hover:text-slate-300 hover:border-slate-500/50",
     },
   ];

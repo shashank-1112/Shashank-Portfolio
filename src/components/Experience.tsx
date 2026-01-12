@@ -40,7 +40,7 @@ export default function Experience() {
         'Collaborated in Agile sprints delivering AI-powered features',
       ],
       projects: [
-        { name: 'RevenuAI - Nexcels', link: '#projects' },
+        { name: 'RevenuAI - Nexsales', link: '#projects' },
       ],
       icon: Zap,
       color: 'from-violet-500 to-purple-500',
