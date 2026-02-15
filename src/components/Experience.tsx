@@ -28,7 +28,7 @@ export default function Experience() {
       color: 'from-cyan-500 to-blue-500',
     },
     {
-      period: 'Apr 2024 - Present',
+      period: 'Nov 2025 - Present',
       title: 'GenAI Specialization',
       company: 'Swabhav Venturelabs',
       role: 'Software Development Engineer (GenAI)',

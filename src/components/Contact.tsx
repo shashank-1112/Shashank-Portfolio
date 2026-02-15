@@ -52,7 +52,7 @@ export default function ContactSection() {
   ];
 
   return (
-    <section id="contact" className="py-24 relative">
+    <section id="contact" className="py-8 relative">
       {/* Background gradient */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-t from-cyan-500/10 via-violet-500/5 to-transparent rounded-full blur-3xl" />
 
@@ -162,7 +162,7 @@ export default function ContactSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-center mt-16 text-slate-600 text-sm"
+          className="text-center mt-12 text-slate-600 text-sm"
         >
           <p>© 2024 Shashank Patgaonkar. Built with passion.</p>
         </motion.div>
