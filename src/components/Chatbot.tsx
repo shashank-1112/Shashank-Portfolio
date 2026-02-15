@@ -9,7 +9,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 export default function ChatBot() {
-    const API = "https://portfolio-chatbot-ihzx.onrender.com/ask?q=";
+    const API = "https://portfolio-chatbot-ihzx.onrender.com/";
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
     {
