@@ -10,7 +10,7 @@ export default function Experience() {
 
   const timelinePhases = [
     {
-      period: 'Aug 2023 - Mar 2024',
+      period: 'Aug 2023 - Sep 2024',
       title: 'Foundation & Full-Stack Development',
       company: 'Swabhav Venturelabs',
       role: 'Software Development Engineer',
@@ -28,7 +28,7 @@ export default function Experience() {
       color: 'from-cyan-500 to-blue-500',
     },
     {
-      period: 'Nov 2025 - Present',
+      period: 'Aug 2025 - Present',
       title: 'GenAI Specialization',
       company: 'Swabhav Venturelabs',
       role: 'Software Development Engineer (GenAI)',

@@ -42,7 +42,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-slate-300 text-lg leading-relaxed mb-6">
-              Software Development Engineer with a passion for building scalable
+            Software Engineer | GenAI & Full-Stack Developer with a passion for building scalable
               web and mobile applications. Currently at{" "}
               <span className="text-cyan-400 font-medium">
                 Swabhav Venturelabs

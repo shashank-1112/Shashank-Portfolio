@@ -164,7 +164,7 @@ export default function ContactSection() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-center mt-12 text-slate-600 text-sm"
         >
-          <p>© 2024 Shashank Patgaonkar. Built with passion.</p>
+          <p>© {new Date().getFullYear()} Shashank Patgaonkar. Built with passion.</p>
         </motion.div>
       </div>
     </section>

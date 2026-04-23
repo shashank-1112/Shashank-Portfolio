@@ -64,7 +64,7 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl text-slate-400 mb-6 font-light"
           >
-            Software Development Engineer
+            Software Engineer | GenAI & Full-Stack Developer
           </motion.p>
 
           <motion.div
