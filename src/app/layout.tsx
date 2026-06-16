@@ -18,16 +18,16 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
-  themeColor: "#0b0c10",
+  themeColor: "#050505",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <MagicCursor />
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased text-white bg-black`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased text-white bg-black overflow-x-hidden`}>
         {children}
       </body>
     </html>

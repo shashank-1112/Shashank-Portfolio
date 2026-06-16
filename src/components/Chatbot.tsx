@@ -89,7 +89,7 @@ export default function ChatBot() {
 
       // Typewriter animation
       await typeWriter(data.response, botIndex);
-    } catch (error) {
+    } catch {
       setMessages((prev) => [
         ...prev,
         {
@@ -212,7 +212,7 @@ export default function ChatBot() {
               >
                 <Input
                   value={input}
-                  onChange={(e: any) => setInput(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}
                   placeholder="Ask about skills, projects..."
                   className="bg-slate-800 border-slate-700 text-white"
                   disabled={isLoading}
