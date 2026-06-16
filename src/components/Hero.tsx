@@ -132,7 +132,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="relative lg:h-[600px] flex items-center justify-center order-first lg:order-last mb-10 lg:mb-0"
+            className="relative lg:h-[600px] flex items-center justify-center order-first lg:order-last mb-4 lg:mb-0 pt-16 pb-14 sm:pt-0 sm:pb-0"
           >
             {/* Glowing borders around image */}
             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/10 to-violet-500/10 rounded-[2rem] transform rotate-3 scale-105 blur-3xl" />
@@ -159,7 +159,7 @@ export default function Hero() {
             <motion.div
               animate={{ y: [-10, 10, -10] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -right-2 sm:-right-4 md:-right-8 lg:-right-12 top-10 lg:top-20 px-4 py-3 rounded-2xl border border-cyan-500/50 z-30 shadow-2xl bg-slate-950/95 backdrop-blur-2xl whitespace-nowrap"
+              className="absolute right-4 top-2 sm:-right-4 md:-right-8 lg:-right-12 sm:top-10 lg:top-20 px-4 py-3 rounded-2xl border border-cyan-500/50 z-30 shadow-2xl bg-slate-950/95 backdrop-blur-2xl whitespace-nowrap"
             >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-cyan-500/20 flex items-center justify-center">
@@ -175,7 +175,7 @@ export default function Hero() {
             <motion.div
               animate={{ y: [10, -10, 10] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              className="absolute -left-2 sm:-left-4 md:-left-8 lg:-left-12 bottom-10 lg:bottom-20 px-4 py-3 rounded-2xl border border-violet-500/50 z-30 shadow-2xl bg-slate-950/95 backdrop-blur-2xl whitespace-nowrap"
+              className="absolute left-4 bottom-2 sm:-left-4 md:-left-8 lg:-left-12 sm:bottom-10 lg:bottom-20 px-4 py-3 rounded-2xl border border-violet-500/50 z-30 shadow-2xl bg-slate-950/95 backdrop-blur-2xl whitespace-nowrap"
             >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-violet-500/20 flex items-center justify-center">
